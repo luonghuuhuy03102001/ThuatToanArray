@@ -1,5 +1,6 @@
 // dồn mảng 1 chiều trong mảng có chứa đối tượng x y , x y có chứa giá trị index cần dồn 
 
+
 var arr = [{"x":0},{"x":0},{"x":0}, null, null, {"x":0}, null,{"x":0},null, null, {"x":0},];
 
 console.log(arr);
@@ -15,6 +16,7 @@ function xulymang(arr)  {
         {
             empty++;
         }
+
     }
     return arr;
 }
@@ -22,6 +24,7 @@ btnSauXuLy.onclick = function () {
     var result = xulymang(arr)
     console.log(result);
 };
+
 
 // btn dồn mảng
 function donMang1ChieuCoXY(arr) {
@@ -40,3 +43,5 @@ btnDonVeDuoi.onclick = function () {
     var result = donMang1ChieuCoXY(arr);
     console.log(result);
 };
+
+
